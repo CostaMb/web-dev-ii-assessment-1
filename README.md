@@ -11,5 +11,3 @@ A folder has been provided for each assessment task, which will contain any addi
 * Please submit the Multi-Device Application to [`/assessment-2-multi-device-application`](/assessment-2-multi-device-application)
 
 **Only code pushed to your GitHub repository before the assessment deadline will be marked. Ensure you give yourself enough time before your final push.**
-
-*Full information about the module can be found on Ultra.*
