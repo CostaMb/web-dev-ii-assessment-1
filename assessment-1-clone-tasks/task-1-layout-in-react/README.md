@@ -1,16 +1,27 @@
-# React + Vite
+# Erased Tapes Records - React Layout
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
 
-Currently, two official plugins are available:
+I created this website for Task 1 of my Web Development II Assessment 1. My aim was to recreate the Erased Tapes Records webpage using React, following the supplied wireframe and design specifications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I organised the page into different sections, including the navigation, main content, images and footer. I used React components to structure the page and CSS to control the layout, colours, fonts and spacing.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (JSX)
+- HTML and CSS
+- Vite
+- Visual Studio Code
 
-## Expanding the ESLint configuration
+## How to Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Open the project folder in Visual Studio Code.
+2. Open the terminal.
+3. Run `npm install` to install the dependencies.
+4. Run `npm run dev` to start the development server.
+5. Open the local URL displayed in the terminal.
+
+## Testing
+
+I tested the website in my browser and checked the layout against the supplied wireframe. I also ran the production build and lint checks to identify possible errors.
