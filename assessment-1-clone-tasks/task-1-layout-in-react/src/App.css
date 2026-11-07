@@ -252,6 +252,7 @@ p {
 /* 11. FULL WIDTH FOOTER */
 
 .site-footer {
+  display: block;
   width: 100%;
   max-width: none;
   margin: 0;
@@ -468,4 +469,15 @@ p {
   .site-footer p {
     font-size: 14px;
   }
+}
+
+/* 14. FINAL SPACING CORRECTION */
+
+.page-container {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.page-container > .comments-section:last-child {
+  margin-bottom: 0;
 }
