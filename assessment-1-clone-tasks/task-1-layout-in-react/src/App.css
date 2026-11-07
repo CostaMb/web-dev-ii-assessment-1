@@ -6,7 +6,21 @@
   FILE: App.css
 */
 
-/* 1. MAIN PAGE CONTAINER */
+/* 1. GLOBAL LAYOUT */
+
+html,
+body,
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* 2. MAIN PAGE CONTAINER */
 
 .page-container {
   width: 100%;
@@ -17,7 +31,7 @@
   box-sizing: border-box;
 }
 
-/* 2. HEADER */
+/* 3. HEADER */
 
 .site-header {
   display: flex;
@@ -65,7 +79,7 @@
   outline-offset: 5px;
 }
 
-/* 3. HEADINGS */
+/* 4. HEADINGS */
 
 h1,
 h2,
@@ -93,7 +107,7 @@ h3 {
   margin: 0 0 20px;
 }
 
-/* 4. PARAGRAPHS */
+/* 5. PARAGRAPHS */
 
 p {
   font-family: "Josefin Sans", sans-serif;
@@ -102,7 +116,7 @@ p {
   margin: 0 0 20px;
 }
 
-/* 5. INTRODUCTION */
+/* 6. INTRODUCTION */
 
 .introduction {
   margin-bottom: 50px;
@@ -117,7 +131,7 @@ p {
   line-height: 1.7;
 }
 
-/* 6. ARTICLE GRID */
+/* 7. ARTICLE GRID */
 
 .article-grid {
   display: grid;
@@ -135,7 +149,7 @@ p {
   margin-bottom: 20px;
 }
 
-/* 7. ALBUM GALLERY */
+/* 8. ALBUM GALLERY */
 
 .album-gallery {
   display: grid;
@@ -160,7 +174,7 @@ p {
   grid-row: span 2;
 }
 
-/* 8. AUTHOR SECTION */
+/* 9. AUTHOR SECTION */
 
 .author-section {
   display: flex;
@@ -198,7 +212,7 @@ p {
   flex-shrink: 0;
 }
 
-/* 9. COMMENTS SECTION */
+/* 10. COMMENTS SECTION */
 
 .comments-section {
   background-color: #e9e9e9;
@@ -233,7 +247,7 @@ p {
   margin-bottom: 0;
 }
 
-/* 10. SOCIAL MEDIA */
+/* 11. SOCIAL MEDIA */
 
 .social-media {
   display: flex;
@@ -249,7 +263,7 @@ p {
   object-fit: contain;
 }
 
-/* 11. FULL WIDTH FOOTER */
+/* 12. FULL WIDTH FOOTER */
 
 .site-footer {
   display: block;
@@ -297,7 +311,7 @@ p {
   margin-bottom: 0;
 }
 
-/* 12. TABLET LAYOUT */
+/* 13. TABLET LAYOUT */
 
 @media (max-width: 900px) {
   .page-container {
@@ -344,7 +358,7 @@ p {
   }
 }
 
-/* 13. MOBILE LAYOUT */
+/* 14. MOBILE LAYOUT */
 
 @media (max-width: 600px) {
   .page-container {
@@ -471,13 +485,19 @@ p {
   }
 }
 
-/* 14. FINAL SPACING CORRECTION */
+/* 15. FINAL SPACING CORRECTION */
 
 .page-container {
-  padding-bottom: 0;
+  padding-bottom: 0 !important;
   margin-bottom: 0;
 }
 
 .page-container > .comments-section:last-child {
   margin-bottom: 0;
+}
+
+.site-footer {
+  width: 100%;
+  max-width: none;
+  margin: 0;
 }
